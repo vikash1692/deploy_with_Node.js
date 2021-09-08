@@ -1,0 +1,27 @@
+{
+  "name": "deploy_with_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikash1692/deploy_with_Node.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikash1692/deploy_with_Node.js/issues"
+  },
+  "homepage": "https://github.com/vikash1692/deploy_with_Node.js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.1",
+    "should": "^13.2.3",
+    "supertest": "^6.1.6"
+  }
+}
