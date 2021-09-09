@@ -11,8 +11,8 @@ on:
 
 jobs:
   build:
-    ## don’t change anything in this section
-    deploy: ## <-- this is the new stuff
+  deploy:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
