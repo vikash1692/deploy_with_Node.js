@@ -11,7 +11,8 @@ on:
 
 jobs:
   build:
-  deploy:
+    ## don’t change anything in this section
+  deploy: ## <-- this is the new stuff
     needs: build
     runs-on: ubuntu-latest
     steps:
